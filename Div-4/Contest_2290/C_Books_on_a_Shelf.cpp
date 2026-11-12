@@ -30,7 +30,6 @@ int main() {
         }
 
         reverse(right.begin(), right.end());
-        reverse(mid.begin(), mid.end());
         mid.insert(mid.end(), right.begin(), right.end());
         left.insert(left.end(), mid.begin(), mid.end());
 
